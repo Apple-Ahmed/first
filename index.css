@@ -1,0 +1,233 @@
+.div1{
+    width: 500px;
+    height: 644px;
+    border: 5px solid red;
+    overflow-y: scroll;
+    color: white;
+}
+
+.div2{
+    width: 500px;
+    height: 400px;
+    border: 6px solid green;
+    overflow-y: scroll;
+    color: white;
+}
+
+/* transform */
+
+.div10{
+    width: 150px;
+    height: 150px;
+    border: red solid 9px;
+    background-color: green;
+      transform: scale(0.95);
+}
+
+.div20{
+    width: 150px;
+    height: 150px;
+    border: red solid 9px;
+    background-color: rgb(21, 214, 198);
+    transform: scale(0.95);
+}
+
+.div30{
+    width: 150px;
+    height: 150px;
+    border: red solid 9px;
+    background-color: aquamarine;
+    transform: scale(0.95);
+}
+*{
+    background-color: tomato;
+
+}
+.banner{
+    background-color: blue;
+}
+
+
+/* transform */
+
+.class{
+    background-color: white;
+    color: salmon;
+  
+}
+.bizid1{
+    width: 150px;
+    height: 150px;
+    border: 5px red solid;
+    background-color: saddlebrown;
+    transform: rotate(30deg);
+}
+
+.bizid2{
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    background-color: chartreuse;
+    transform: rotate(34deg);
+}
+.bizid3{
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    background-color: darkorange;
+    transform: rotate(40deg);
+}
+.bizid4{
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    background-color: darkgrey;
+    transform: rotate(45deg);
+}
+.bizid5{
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    transform: rotate(50deg);
+    background-color: rgb(2, 120, 222);
+}
+/* animision */
+.animision {
+    background-color: rgb(168, 48, 211);
+    
+}
+
+.hima1{
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    background-color: cyan;
+    transition:width 4s , height 4s;
+    overflow: scroll;
+}
+.hima1:hover{
+    width: 300px;
+    height: 300px;
+    color: rgb(211, 35, 8);
+    background-color: chartreuse;
+    padding: 5%;
+}
+
+
+.hima2{
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    background-color: rgb(63, 83, 72);
+    transition:width 4s , height 4s;
+    overflow: scroll;
+}
+.hima2:hover{
+    width: 300px;
+    height: 300px;
+    color: rgb(192, 192, 192);
+    background-color: rgb(126, 220, 32);
+    padding: 5%
+}
+
+
+.hima3{
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    background-color: rgb(98, 18, 144);
+    transition:width 4s , height 4s;
+    overflow: scroll;
+}
+.hima3:hover{
+    width: 300px;
+    height: 300px;
+    color: rgb(6, 2, 1);
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    text-overflow: ellipsis;
+}
+
+/* flex */
+.home{
+    width: 100%px;
+    height: 650px;
+    border: red dotted 5px;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+}
+
+
+.box{
+    width: 100px;
+   
+    height: 100px;
+    color: rgb(224, 22, 22);
+    background-color: aqua;
+}
+
+/* login */
+
+form{
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  border: 0px;
+  width: 15%;
+  top: 1em;
+}
+
+/* colum */
+.box{
+    width: 200px;
+    height: 30px;
+    border: 5px red dotted;
+    background-color: rgb(73, 83, 100);
+}
+.game{
+   
+    background-color: rgb(255, 255, 255);
+    border: 5px green solid;
+    display: grid;
+    grid-template-columns: repeat(9,1fr) ;
+    
+}
+
+/* calander */
+
+.calander{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    background-color: whitesmoke;
+    
+}
+    
+
+
+.dat{
+    background-color: lightblue;
+    height: 65px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.day{
+    font-size: 40px;
+    padding: 33px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: lightcyan;
+}
+
+/* importent */
+.importent{
+    display: flex;
+}
+.image{
+    width: 100%;
+}
